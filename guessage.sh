@@ -1,7 +1,8 @@
-#!/usr/bash/bin
 #Georgia Robson 10477706 CSP2101 A2 T1
+#!/usr/bash/bin
 
-echo -e "Guess a number between 1 and 100.\n"
+#
+echo -e "Guess the age of the person, input a number between 1 and 100.\n"
 
 #random number generator
 ((answer = RANDOM % 100 + 1))
